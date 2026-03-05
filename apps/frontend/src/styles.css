@@ -1,0 +1,27 @@
+:root {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --text: #1f2a37;
+  --primary: #1f6feb;
+  --accent: #0f766e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Flex", "Segoe UI", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 10% 20%, #dbeafe 0%, transparent 30%),
+    radial-gradient(circle at 85% 15%, #ccfbf1 0%, transparent 28%),
+    var(--bg);
+}
+
+.container {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 24px 32px;
+}
